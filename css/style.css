@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  right: 0;
+}
+
+.a-menu1,
+.a-menu2,
+.a-menu3,
+.a-menu4 {
+  margin-right: 20px;
+  text-decoration: none;
+
+}
+
+.title {
+  font-size: 2em;
+  box-sizing: border-box;
+  margin: 5px 5px 5px 10px;
+
+}
+
+.title,
+.a-menu1,
+.a-menu2,
+.a-menu3,
+.a-menu4 {
+  color: blue;
+}
+
+.f-view1 {
+  width: 100%;
+
+}
+
+.f-view2 {
+  position: relative;
+  top: 25vh;
+  left: 50vw;
+  z-index: 3;
+}
+
+.f-view3 {
+  width: 50vw;
+
+}
+
+.back {
+  position: absolute;
+  top: 65%;
+}
+
+.b-blue {
+  background-color: blue;
+  width: 75vw;
+  height: 25vh;
+  z-index: 0;
+}
+
+.smile {
+  position: absolute;
+  font-size: 2em;
+  color: black;
+  top: -25%;
+}
