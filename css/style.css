@@ -14,6 +14,7 @@
   display: flex;
   list-style-type: none;
   right: 0;
+  font-weight: bold;
 }
 
 .a-menu1,
@@ -42,36 +43,42 @@
 
 .f-view1 {
   width: 100%;
-
-}
-
-.f-view2 {
+  height: 100vh;
   position: relative;
-  top: 25vh;
-  left: 50vw;
-  z-index: 3;
 }
 
-.f-view3 {
-  width: 50vw;
-
+.b-back {
+  height: 100vh;
+  width: 100vw;
 }
 
-.back {
-  position: absolute;
-  top: 65%;
+.b-blue,.f-view3 {
+  width: 60%;
+  height: 60%;
 }
 
 .b-blue {
-  background-color: blue;
   width: 75vw;
   height: 25vh;
-  z-index: 0;
+  background-color: blue;
+  position: fixed;
+  top: 65vh;
+  left: 0;
+}
+.smile {
+  position: fixed;
+  font-size: 2.5em;
+  color: black;
+  bottom: 32vh;
 }
 
-.smile {
-  position: absolute;
-  font-size: 2em;
-  color: black;
-  top: -25%;
+.f-view2 {
+  height: 100vh;
+}
+
+.f-view3 {
+  position: fixed;
+  width: 60vw;
+  top: 25vh;
+  left: 40%;
 }
